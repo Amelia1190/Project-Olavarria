@@ -1,0 +1,65 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto básica */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    margin: 0; /* Elimina el margen por defecto del navegador */
+    padding: 0; /* Elimina el padding por defecto del navegador */
+    background-color: #f4f4f4; /* Un gris claro para el fondo */
+    color: #333; /* Color de texto principal */
+}
+
+.container {
+    width: 80%; /* Ancho del contenido principal */
+    margin: auto; /* Centra el contenedor en la página */
+    overflow: hidden; /* Limpia cualquier flotación */
+}
+
+/* Estilos del Encabezado (Header) */
+header {
+    background: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding-top: 20px; /* Espacio arriba */
+    min-height: 70px; /* Altura mínima */
+    border-bottom: #77aaff 3px solid; /* Borde inferior azul claro */
+}
+
+header h1 {
+    float: left; /* Alinea el título a la izquierda */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0 10px; /* Pequeño padding */
+}
+
+header nav {
+    float: right; /* Alinea la navegación a la derecha */
+    margin-top: 10px; /* Empuja la navegación un poco hacia abajo */
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+header li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    padding: 0 15px; /* Espacio entre los elementos de la navegación */
+}
+
+header a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #77aaff; /* Cambia el color al pasar el ratón */
+    font-weight: bold; /* Hace el texto más grueso */
+}
+
+/* Estilos de las Secciones */
+section {
+    padding: 20px 0; /* Espacio arriba y abajo de cada sección */
+    margin-bottom: 20px; /* Espacio entre secciones */
+    background: #fff; /* Fondo blanco*/
+}
